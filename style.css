@@ -1,0 +1,288 @@
+header{
+   height: 600px;
+   background-color: rgb(239, 234, 232);
+   margin: 0;
+   padding: 0;
+}
+.top-nav{
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(239, 234, 232);
+}
+#img-1{
+   flex : 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.nav-info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex: 4;
+}
+.nav-info a{
+    text-decoration : none;
+    color: black;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+.nav-info a:hover{
+    color:rgb(217, 19, 19)
+}
+#Search-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    flex: 3;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+}
+#search input{
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+}
+#line{
+    width: 0.2px;
+    height: 25px ;
+    background-color: rgb(218, 205, 205) ;
+    margin-right: 10px;
+}
+#btn-1{
+    color: rgb(238, 228, 228);
+    border-radius: 10px;
+    padding-left : 25px;
+    padding-right: 25px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(199, 12, 12);
+}
+#btn-1:hover{
+    font-weight: 700;
+    color: red;
+    background-color: white;
+}
+#Dis-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#F1{
+    width: 450px;
+}
+#F1-1{
+    width: 225px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(220, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#F1-1>p{
+    color: red;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+#f-logo{
+    background-color: white;
+    border-radius: 50%;
+}
+#F1 h1{
+    font-weight: 700;
+}
+#red-col{
+    color: red;
+}
+#btn-2{
+    color: rgb(238, 228, 228);
+    border-radius: 10px;
+    padding-left : 20px;
+    padding-right: 20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(199, 12, 12);
+}
+#btn-2:hover{
+    font-weight: 700;
+    color: red;
+    background-color: white;
+}
+.temp{
+    width: 240px;
+    height: 300px;
+}
+.card{
+    margin: 20px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.Logo-1{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px black;
+}
+.logo-info{
+    width: 180px;
+    height: 100px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav-info-2{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.nav-info-2 a{
+    text-decoration : none;
+    color: black;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+.nav-info-2 a:hover{
+    color: red;
+}
+.card-2{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(50, 195, 89);
+   
+}
+.card-2:hover{
+    box-shadow: 0px 0px 10px rgb(99, 107, 47);
+}
+.Food-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logo-2{
+    width: 100px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.cost{
+    color: red;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-3{
+    color: rgb(238, 228, 228);
+    border-radius: 10px;
+    padding-left : 10px;
+    padding-right: 10px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(177, 44, 44);
+}
+.btn-3:hover{
+    font-weight: 700;
+    color: red;
+    background-color: white;
+}
+
+.about-us{
+    background-color: rgb(229, 221, 216);
+    padding: 100px;
+}
+#Star-1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    margin: 40px;
+}
+
+#Team-1{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Team-2{
+    width: 350px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content :left;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+}
+#Star-2{
+    width: 1px;
+    height: 350px ;
+    background-color: rgb(0, 0, 0) ;
+    margin: 40px;
+}
+#Star-3{
+    height: 500px;
+    margin: 40px;
+}
+#owner{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#line-1{
+    width: 2px;
+    height: 48px;
+    background-color: red;
+}
